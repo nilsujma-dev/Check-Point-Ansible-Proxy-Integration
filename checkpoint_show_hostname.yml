@@ -1,0 +1,14 @@
+- hosts: checkpoint
+  connection: httpapi
+  any_errors_fatal: true
+  gather_facts: false
+  tasks:
+    - name: show hostname
+      check_point.gaia.cp_gaia_hostname_facts:
+      vars:
+        ansible_checkpoint_target: "gateway_ip"
+        ansible_checkpoint_domain: "domain_name"
+      register: test2
+    - name: details2
+      ansible.builtin.debug:
+        var: test2

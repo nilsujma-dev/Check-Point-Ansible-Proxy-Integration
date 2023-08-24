@@ -3,12 +3,18 @@
   any_errors_fatal: true
   gather_facts: false
   tasks:
-    - name: show hostname
+    - name: show hostname of a gateway
       check_point.gaia.cp_gaia_hostname_facts:
       vars:
         ansible_checkpoint_target: "gateway_ip"
-        ansible_checkpoint_domain: "domain_name"
       register: test2
+    - name: show hostname of a mds
+      check_point.gaia.cp_gaia_hostname_facts:
+      register: test3
+    - name: do an action on the mds api
+      check_point.mgmt.cp_mgmt_service_group:
+        name: .....
+      register: test4
     - name: details2
       ansible.builtin.debug:
         var: test2

@@ -6,6 +6,9 @@ This repository enhances the Check Point Ansible Collection by integrating the P
 
 For detailed information about the Proxy API feature, refer to the [Check Point R81.20 Security Management Administration Guide](link-to-guide).
 
+ ![image](https://github.com/nilsujma-dev/Check-Point-Ansible-Proxy-Integration/assets/114651180/0a9dc69f-2a64-4511-bb95-01e28f0049af)
+
+
 **Note:** The Proxy API feature is currently available through direct API calls and hasn't been officially incorporated into the Check Point Ansible Collection. This repository addresses this gap by introducing necessary modifications in the `checkpoint.py` file located in the `httpapi` module of the collection.
 
 ## Integration Process

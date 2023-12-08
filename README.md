@@ -12,7 +12,7 @@ For detailed information about the Proxy API feature, refer to the [Check Point 
 
 ### Step 1: Options Selected
 
-1. **Source Code:** [Check Point Ansible Management Collection on GitHub](https://github.com/nilsujma-io/checkpointgaiaproxy)
+1. **Source Code:** 
 
 The revised code introduces a significant enhancement – the 'target gateway' option. This addition allows the specification of a designated gateway to receive API requests, leveraging the Management Server's Proxy API feature. This modification expands the module's capabilities, aligning with advanced network management requirements and enabling more precise API interactions.
 
@@ -30,7 +30,3 @@ Feel free to contribute, explore the source code, and make improvements. Your co
 - Nils Ujma
 - Jonas Rosenboom
 - George Lucan
-
-## License
-
-This project is licensed under the [MIT License](link-to-license).

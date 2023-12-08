@@ -29,7 +29,7 @@ Feel free to contribute, explore the source code, and make improvements. Your co
 
 - Nils Ujma
 - Jonas Rosenboom
-- 
+- George Lucan
 
 ## License
 

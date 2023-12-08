@@ -23,7 +23,7 @@ The revised code introduces a significant enhancement – the 'target gateway' o
 
 1. Clone this repository.
 2. Navigate to the `httpapi` module in the `checkpoint.py` file.
-3. Implement the modifications specified in the code to enable Proxy API integration.
+3. Implement the modifications and replace current version of `httpapi`
 4. Follow the standard Ansible playbook execution process with the enhanced Check Point Ansible Collection.
 
 Feel free to contribute, explore the source code, and make improvements. Your contributions are valuable in enhancing the capabilities of Ansible for managing Check Point Security Gateways.
